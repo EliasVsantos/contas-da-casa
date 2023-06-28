@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins' , sans-serif;
+    max-width: 1280px;
+    background-image: linear-gradient(to top , green, white);
+    
+    
+}
+
+h1{
+    padding: 35px;
+
+}
+
+p{  
+    margin: 35px;
+}
+
+header{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;  
+    align-items: center;
+
+    
+}
+
+.visao-do-mes{
+width: 100px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 15px;
+border: solid white ;
+
+
+
+
+}
+
+.mes{
+    color: green;
+}
+
+span{
+
+    color: red;
+}
+
+.foto-faxada{
+    padding: 25px;
+    max-width: 1280px;
+}
+
+.logo-sabesp{
+    width: 350px;
+    height: 350px;
+}
+
+.logo-enel{
+    align-items: center;
+    text-align: center;
+
+}
+
+.iptu{
+    width: 350px;
+    height: 350px;
+}
+
+
