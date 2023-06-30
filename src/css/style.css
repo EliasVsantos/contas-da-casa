@@ -1,14 +1,13 @@
 body{
-    font-family: 'Poppins' , sans-serif;
-    max-width: 1280px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1080px;
     background-image: linear-gradient(to top , green, white);
-    
-    
+    padding: 25px;
+        
 }
 
 h1{
     padding: 35px;
-
 }
 
 p{  
@@ -16,22 +15,80 @@ p{
 }
 
 header{
-    align-items: center;
-    text-align: center;
+ padding: 25px;
+
+}
+
+
+ul{
     display: flex;
     justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+.foto-faxada{
     padding: 25px;
-    
+    max-width: 1280px;
+    border-radius: 35px;
 }
 
 .container{
+        display: flex;
+        flex-flow: nowrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-grow: 12px;
+        padding: 35px;  
+                 
+    }
+
+ .novidades{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;  
-    align-items: center;
+    justify-content: space-around;
+    border-radius: 35px;
+    border: solid white;
+}
 
-    
+.resumo{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: ;
+    border-radius: 35px;
+    border: solid white;    
+}
+
+.texto-resumo{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-resumo {
+    width: 45px;
+    align-items: end;
+    text-align: end;
+    padding: 0.5px;
+}
+
+.foto-enel{
+    flex-wrap: wrap;
+    width: 45px;
+    align-items: end;
+    text-align: end;
+    padding: 0.5px;
+
 }
 
 .visao-do-mes{
@@ -42,9 +99,6 @@ flex-direction: column;
 align-items: center;
 border-radius: 15px;
 border: solid white ;
-
-
-
 
 }
 
@@ -60,6 +114,7 @@ span{
 .foto-faxada{
     padding: 25px;
     max-width: 1280px;
+    border-radius: 35px;
 }
 
 .logo-sabesp{
@@ -70,12 +125,12 @@ span{
 .logo-enel{
     align-items: center;
     text-align: center;
-
 }
 
-.iptu{
+.logo-iptu{
     width: 350px;
     height: 350px;
+
 }
 
 

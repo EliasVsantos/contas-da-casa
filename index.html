@@ -4,56 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contas da Casa</title> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Contas da Casa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
-   
+
 
 </head>
 
 <body>
     <header>
-
-        <ul>
-            <div>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-            </div>
-            <div>
-                <a href="enel.html">Enel</li></a>
-                <li>
-            </div>
-            <div>
-                <a href="sabesp.html">
-                    <li>Sabesp</li>
-                </a>
-            </div>
-            <div>
-                <a href="iptu.html">
-                    <li>Iptu</li>
-                </a>
-            </div>
-        </ul>
-
+        <h1>Olá vocês está na página contas da casa!</h1>
     </header>
-    <main>
-        <h1>Contas da Casa</h1>
 
-        <p>Por aqui vamos ter acesso a todas as contas da casa, bem como a divisão.</p>
+    <div>
+        <img src="./src/imagens/toto-faxada-1.png" alt="foto da faxada da casa" class="foto-faxada">
+    </div>
 
-        <p>Também os históricos de pagamento e comprovantes.</p>
+    <main class="container">
 
-        <p>E todas as novidades sobre a casa também podemos colocar aqui!</p>
+        <div class="novidades">
+            <P><STrong>NOVIDADES!</STrong></P>
+           
+            <p>Como vai funcionar: No quadro <strong>"RESUMO"</strong>, vou alocar os valores totais de cada conta ex: Sabesp, temos a Fatura do mês e mais dois acordos, sendo assim no quadro resumo esse valor estára unificado.</p>
+            <p>Para ter acesso aos valores individuais, basta clicar na foto ao lado do valor(isto serve para todas as contas), irá abrir uma nova página, lá estará o valor da Fatura, Acordo 1 e Acordo 2, bem como o PDF da fatura, acordos e comprovantes.</p>
+            <p>Conto com o apoio de todos e qualquer coisa só avisar!</p>
 
-        <div class="foto-faxada">
-            <img src="./src/imagens/toto-faxada-1.png" alt="foto da faxada da casa" class="foto-faxada">
+        </div>
+
+        <div class="resumo">
+            <p><strong>RESUMO MAIO</strong></p>
+            <div>
+                <p class="texto-resumo"><a href="enel.html"><img src="src/imagens/logo-enel.png"
+                            class="foto-enel"></a>R$580,00</p>
+            </div>
+            <div>
+                <p class="texto-resumo"><a href="sabesp.html"><img src="src/imagens/sabesp-logo.png"
+                            class="foto-resumo"></a>R$458,00</p>
+            </div>
+
+            <div>
+                <p class="texto-resumo"><a href="iptu.html"><img src="src/imagens/iptu-02.png"
+                            class="foto-resumo"></a>R$95,50</p>
+            </div>
+
+           
+
+            <p class="texto-resumo">Total: R$1.024,50</p> 
+            <p class="texto-resumo">Divisão: R$348,50</p>
+            
+
         </div>
 
     </main>
+
+
+   
+
+
 
 </body>
 
