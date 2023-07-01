@@ -1,6 +1,4 @@
-@media screen and (max-whidth 900px) {
-    
-}
+
 body{
 
     font-family: 'Poppins', sans-serif;
@@ -38,9 +36,21 @@ ul{
 }
 
 
-        
-    
+
+@media only screen and (max-device-width: 900px) {
     .container{
+        width: 600px;
+    }
+    
+@media only screen and (max-device-width: 700px) {
+    .container{
+        width: 400px;
+    }
+    
+}
+}    
+    .container{
+       
         display: flex;
         flex-flow: column-reverse;
         flex-direction: ;
