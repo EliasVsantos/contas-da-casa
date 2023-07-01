@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
-    max-width: 1080px;
+    min-width: 724px;
+    max-width: 1024px;
     background-image: linear-gradient(to top , green, white);
     padding: 25px;
         
