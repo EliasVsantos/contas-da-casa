@@ -1,10 +1,9 @@
+@media screen and (max-whidth 900px) {
+    
+}
 body{
 
     font-family: 'Poppins', sans-serif;
-    max-width: 900px;
-    width: 600px;
-    max-width: 700px;
-    width: 400px;
     margin: 0 auto;
     background-image: linear-gradient(to top , green, white);
     padding: 25px;
@@ -38,19 +37,24 @@ ul{
     border-radius: 35px;
 }
 
-.container{
+
+        
+    
+    .container{
         display: flex;
-        flex-flow: nowrap;
-        flex-direction: row-reverse;
+        flex-flow: column-reverse;
+        flex-direction: ;
         justify-content: center;
         text-align: center;
         justify-content: space-between;
         justify-content: space-around;
         justify-content: space-evenly;
-        flex-grow: 12px;
         padding: 35px;  
                  
     }
+}
+
+
 
  .novidades{
     display: flex;
@@ -66,11 +70,11 @@ ul{
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row
     justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
-    justify-content: ;
+
     border-radius: 35px;
     border: solid white;    
 }
@@ -137,5 +141,3 @@ span{
     height: 350px;
 
 }
-
-
