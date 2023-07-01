@@ -59,13 +59,14 @@ ul{
     text-align: center;
     justify-content: space-between;
     justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 35px;
     border: solid white;
-    padding: 25px;
+    padding: 35px;
 }
 
 .resumo{
-    padding: 25px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,6 +82,7 @@ ul{
 .texto-resumo{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .foto-resumo {
