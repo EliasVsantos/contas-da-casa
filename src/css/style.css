@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to top , green, white);
     margin: 0 auto;
+    padding: auto;
             
 }
 
@@ -11,7 +12,8 @@ main{
 
     min-width: 320px;
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
+    padding: auto;
 }
 
 h1{
@@ -37,9 +39,11 @@ ul{
     padding: 25px;
     width: 100%;
     border-radius: 35px;
+    margin: auto;
 }
   
 .container{
+        margin: auto;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -54,7 +58,7 @@ ul{
  .novidades{
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row-reverse;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     justify-content: space-between;
@@ -142,11 +146,18 @@ span{
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
     .container{
-        width: 375px;
         display: block;
         background-image: none;
+    }
+
+    .foto-faxada{
+        width: 100%;
+    }
+
+    .container{
+        margin: 2em 2em;
     }
 
     }
