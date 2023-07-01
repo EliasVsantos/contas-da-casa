@@ -2,22 +2,27 @@
 body{
 
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
     background-image: linear-gradient(to top , green, white);
-    padding: 25px;
-        
+    margin: 0 auto;
+            
+}
+
+main{
+
+    min-width: 320px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 h1{
     padding: 35px;
 }
 
-p{  
-    margin: 35px;
-}
-
 header{
- padding: 25px;
+    border: solid green;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -31,49 +36,34 @@ ul{
 
 .foto-faxada{
     padding: 25px;
-    max-width: 1280px;
+    width: 100%;
     border-radius: 35px;
 }
 
-
-
-@media only screen and (max-device-width: 900px)  {
-    .container{
-        width: 600px;
-    }
-    
-@media only screen and (max-device-width: 700px) {
-    .container{
-        width: 400px;
-    }
-    
-}
-}    
-    .container{
-       
+  
+.container{
         display: flex;
-        flex-flow: column-reverse;
-        flex-direction: ;
+        flex-direction: column-reverse;
         justify-content: center;
         text-align: center;
         justify-content: space-between;
         justify-content: space-around;
         justify-content: space-evenly;
-        padding: 35px;  
-                 
+        padding: auto;
+                     
     }
-}
-
-
 
  .novidades{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction:row-reverse;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
     justify-content: space-around;
     border-radius: 35px;
     border: solid white;
+    padding: 25px;
 }
 
 .resumo{
@@ -131,8 +121,7 @@ span{
 }
 
 .foto-faxada{
-    padding: 25px;
-    max-width: 1280px;
+    max-width: 100%;
     border-radius: 35px;
 }
 
