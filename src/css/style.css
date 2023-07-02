@@ -133,8 +133,8 @@ span{
     border-radius: 35px;
     text-align: center;
     align-items: center;
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: 7.5px;
+    padding-top:10px;
 }
 
 .logo-sabesp{
@@ -160,11 +160,15 @@ span{
         background-image: none;
         
     }
-
- 
-
     .container{
         margin: 2em 2em;
+    }
+
+    .foto-faxada{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
     }
 
     .container-1{
