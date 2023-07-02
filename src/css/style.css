@@ -21,7 +21,6 @@ h1{
 }
 
 header{
-    border: solid green;
     padding: auto;
     align-items: center;
     text-align: center;
@@ -32,6 +31,7 @@ ul{
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    padding: 25px;
 }
 
 
@@ -87,6 +87,7 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
 }
 
 .foto-resumo {
@@ -126,20 +127,20 @@ span{
 }
 
 .foto-faxada{
-    max-width: 100%;
+    width: 100%;
     border-radius: 35px;
 }
 
 .logo-sabesp{
+    text-align: center;
+    align-items: center;
     width: 350px;
     height: 350px;
 }
 
 .logo-enel{
-    align-items: center;
-    text-align: center;
+    width: 100%;
 }
-
 .logo-iptu{
     width: 350px;
     height: 350px;
@@ -152,13 +153,15 @@ span{
         background-image: none;
     }
 
-    .foto-faxada{
-        width: 100%;
-    }
 
     .container{
         margin: 2em 2em;
     }
+
+    .container-1{
+        margin: 2em 2em;
+    }
+
 
     }
 
