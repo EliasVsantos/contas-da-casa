@@ -20,6 +20,7 @@ h1{
     padding: 35px;
 }
 
+
 header{
     padding: auto;
     align-items: center;
@@ -38,6 +39,12 @@ p{
     padding: 25px;
 }
 
+.descrisao{
+    text-align: justify;
+    padding: 25px;
+    
+}
+
 footer{
     text-align: center;
 }
@@ -50,18 +57,18 @@ footer{
 }
   
 .container{
-        margin-right: 5 5;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        text-align: center;
-        justify-content: space-between;
-        justify-content: space-around;
-        justify-content: space-evenly;
-        padding: auto;                
-    }
+    margin-right: 5 5;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: auto;                
+}
 
- .novidades{
+.novidades{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -72,7 +79,7 @@ footer{
     justify-content: space-evenly;
     border-radius: 35px;
     border: solid white;
-    padding: 35px;
+    padding: auto;
 }
 
 .resumo{
@@ -112,13 +119,13 @@ footer{
 }
 
 .visao-do-mes{
-width: 100px;
-padding: 15px;
-display: flex;
-flex-direction: column;
-align-items: center;
-border-radius: 15px;
-border: solid white ;
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: solid white ;
 
 }
 
@@ -154,6 +161,19 @@ span{
     width: 350px;
     height: 350px;
 
+}
+
+.container-1{
+    margin-right: 5 5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: auto;         
 }
 
 
