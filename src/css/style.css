@@ -157,7 +157,7 @@ span{
 }
 
 
-@media(max-device-width: 680px) {
+@media(max-device-width: 677px) {
     .container{
         display: block;
         background-image: none;
@@ -168,11 +168,11 @@ span{
     }
 
     .foto-faxada{
-        width: 100%;
-        margin: auto;
+        width: 95%;
         align-items: center;
         text-align: center;
-        padding: auto;
+        padding-top:0.25px;
+
     }
 
     .container-1{
