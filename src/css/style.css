@@ -45,6 +45,12 @@ p{
     
 }
 
+.titulo-da-pagina{
+    text-align: left;
+    padding: 25px;
+
+}
+
 footer{
     text-align: center;
 }
