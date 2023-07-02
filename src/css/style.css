@@ -41,27 +41,16 @@ p{
 
 .descrisao{
     text-align: justify;
-    padding: 25px;
+    padding: auto;
     
 }
 
 .titulo-da-pagina{
-    text-align: left;
-    padding: 25px;
+    text-align: justify;
+    padding: 0;
 
 }
-
-footer{
-    text-align: center;
-}
-
-.foto-faxada{
-    padding: auto;
-    width: 50%;
-    border-radius: 35px;
-    margin: auto;
-}
-  
+ 
 .container{
     margin-right: 5 5;
     display: flex;
@@ -109,6 +98,45 @@ footer{
     text-align: center;
 }
 
+.container-1{
+    margin-right: 5 5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: auto;         
+}
+
+.visao-do-mes{
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: solid white;
+}
+
+.mes{
+    color: green;
+}
+
+span{
+
+    color: red;
+}
+
+.foto-faxada{
+    padding: auto;
+    width: 50%;
+    border-radius: 35px;
+    margin: auto;
+}
+
 .foto-resumo {
     width: 45px;
     align-items: end;
@@ -124,25 +152,6 @@ footer{
     padding: 0.5px;
 }
 
-.visao-do-mes{
-    width: 100px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    border: solid white ;
-
-}
-
-.mes{
-    color: green;
-}
-
-span{
-
-    color: red;
-}
 
 .foto-faxada{
     width: 95%;
@@ -163,23 +172,14 @@ span{
 .logo-enel{
     width: 100%;
 }
+
 .logo-iptu{
     width: 350px;
     height: 350px;
-
 }
 
-.container-1{
-    margin-right: 5 5;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+footer{
     text-align: center;
-    justify-content: space-between;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    padding: auto;         
 }
 
 
