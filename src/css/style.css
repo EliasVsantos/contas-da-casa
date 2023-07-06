@@ -5,7 +5,7 @@ body{
     background-image: linear-gradient(to top , green, white);
     margin: 0 auto;
     padding: auto;
-            
+    box-sizing: border-box;
 }
 
 
@@ -20,7 +20,6 @@ main{
 h1{
     padding: 35px;
     font-size: 15pt;
-    
     
 }
 
@@ -41,11 +40,6 @@ ul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-li{
-    color: blue;
-    
-}
-
 p{
     padding: 25px;
 }
@@ -57,8 +51,7 @@ a{
 
 .descrisao{
     text-align: justify;
-    padding: auto;
-    
+    padding: auto;    
 }
 
 .titulo-da-pagina{
@@ -131,7 +124,7 @@ a{
 }
 
 .visao-do-mes{
-    width: 100px;
+    width: auto;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -139,20 +132,51 @@ a{
     border-radius: 25px;
     border: solid white;
     padding: 25px;
+    margin: auto;
+    height: auto;
 }
+
+
+
 
 .mes{
     color: brown;
     text-align: center;
-    padding: 5px;
+    padding: 0.5rem;
+    
 }
 
 .total{
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .divisao-das-contas{
     padding: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.container-1 li{
+    color: #ffff;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none; 
+    padding-bottom: 5px;   
+}
+
+.dropdown-menu a{
+    display: block;
+       
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    padding: 15px;
+}
+
+.dropdown{
+    display: flex;
 }
 
 span{
@@ -161,11 +185,16 @@ span{
 }
 
 .pdf{
-    text-decoration: underline;
+    text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: burlywood; 
-    
+    color: burlywood;     
 }
+
+.pdf:hover{
+    background-color: red;
+}
+
+
 
 .historico-de-pagamento{
     text-decoration: underline;
