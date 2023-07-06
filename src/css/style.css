@@ -188,7 +188,7 @@ span{
 .pdf{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: burlywood;     
+    color: chocolate;     
 }
 
 .pdf:hover{
@@ -205,8 +205,12 @@ span{
     border: solid white ;
     justify-content: space-between;
     justify-content: space-around;
-    
+
    
+}
+
+.historico-de-pagamento:hover{
+    background-color: blueviolet;
 }
 
 .foto-faxada{
