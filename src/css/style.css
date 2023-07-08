@@ -175,6 +175,8 @@ a{
 
 .dropdown-menu a{
     display: block;
+    padding: 10px;
+    background-color: aquamarine;
        
 }
 .dropdown:hover .dropdown-menu{
@@ -195,7 +197,7 @@ span{
 .pdf{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: chocolate;     
+    color: blue;     
 }
 
 .pdf:hover{
