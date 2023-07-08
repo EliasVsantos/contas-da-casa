@@ -17,52 +17,74 @@
 
 <body>
     <header>
-        <h1>Olá vocês estão na página contas da casa!</h1>
+        <nav class="menu">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+    
+                <a href="enel.html">
+                    <li>Enel</li>
+                </a>
+                    <a href="sabesp.html">
+                <li>Sabesp</li>
+                </a>
+                <a href="iptu.html">
+                    <li>Iptu</li>
+                </a>
+            </ul>
+    
+        </nav>
+
+        <h1>Olá você está na página contas da casa!</h1>
     </header>
-
-    <main class="container">
-
-        <div class="novidades">
-            <P><STrong>NOVIDADES!</STrong></P>
-           
-            <p>Como vai funcionar: No quadro <strong>"RESUMO"</strong>, vou alocar os valores totais de cada conta ex: Sabesp, temos a Fatura do mês e mais dois acordos, sendo assim no quadro resumo esse valor estára unificado.</p>
-            <p>Para ter acesso aos valores individuais, basta clicar na foto ao lado do valor(isto serve para todas as contas), irá abrir uma nova página, lá estará o valor da Fatura, Acordo 1 e Acordo 2, bem como o PDF da fatura, acordos e comprovantes.</p>
-            <p>Conto com o apoio de todos e qualquer coisa só avisar!</p>
-
-        </div>
-
-        <div class="resumo">
-            <p><strong>RESUMO MAIO</strong></p>
-            <div>
-                <p class="texto-resumo"><a href="enel.html"><img src="src/imagens/logo-enel.png"
-                            class="foto-enel"></a> R$459,59</p>
+<section>
+    
+        <main class="container">
+    
+            <div class="novidades">
+                <P><STrong>NOVIDADES!</STrong></P>
+    
+                <p>Como vai funcionar: No quadro <strong>"RESUMO"</strong>, vou alocar os valores totais de cada conta ex: Sabesp, temos a Fatura do mês e mais dois acordos, sendo assim no quadro resumo esse valor estára unificado.</p>
+                <p>Para ter acesso aos valores individuais, basta clicar na foto ao lado do valor(isto serve para todas as contas), irá abrir uma nova página, lá estará o valor da Fatura, Acordo 1 e Acordo 2, bem como o PDF da fatura, acordos e comprovantes.</p>
+                <p>Conto com o apoio de todos e qualquer coisa só avisar!</p>
+    
             </div>
-            <div>
-                <p class="texto-resumo"><a href="sabesp.html"><img src="src/imagens/sabesp-logo.png"
-                            class="foto-resumo"></a>R$492,39</p>
+    
+            <div class="resumo">
+                <p><strong>RESUMO MAIO</strong></p>
+                <div>
+                    <p class="texto-resumo"><img src="src/imagens/logo-enel.png"
+                                class="foto-enel"></a> R$459,59</p>
+                </div>
+                <div>
+                    <p class="texto-resumo"><img src="src/imagens/sabesp-logo.png"
+                                class="foto-resumo"></a>R$492,39</p>
+                </div>
+    
+                <div>
+                    <p class="texto-resumo"><img src="src/imagens/iptu-02.png"
+                                class="foto-resumo"></a>R$95,00</p>
+                </div>
+    
+    
+                <p class="texto-resumo">Total: R$1.046,98</p>
+                <p class="texto-resumo">Divisão: R$348,99</p>
+    
+    
             </div>
-
-            <div>
-                <p class="texto-resumo"><a href="iptu.html"><img src="src/imagens/iptu-02.png"
-                            class="foto-resumo"></a>R$95,00</p>
-            </div>
-
-
-            <p class="texto-resumo">Total: R$1.046,98</p> 
-            <p class="texto-resumo">Divisão: R$348,99</p>
-            
-
-        </div>
-
-    </main>
+    
+        </main>
+    
+</section>
 
     <div>
-        <picture>
-            <source media="(max-width: 1280px)" srcset="src/imagens/foto-faxada-1.png">
-            <img src="./src/imagens/foto-faxada-1.png" alt="foto da faxada da casa" class="foto-faxada">
-        </picture>
-        
-      
+        <figure>
+            <picture>
+                <source media="(max-width: 1280px)" srcset="src/imagens/foto-faxada-1.png">
+                <img src="./src/imagens/foto-faxada-1.png" alt="foto da faxada da casa" class="foto-faxada">
+            </picture>
+        </figure>
     </div>
    
 
