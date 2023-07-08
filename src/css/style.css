@@ -50,8 +50,6 @@ h2{
     color: blueviolet;
 }
 
-
-
 ul{
     display: flex;
     justify-content: space-between;
@@ -237,7 +235,8 @@ span{
 
 .foto-faxada{
     padding: auto;
-    width: 50%;
+    width: 50vw;
+    height: 50vwpx;
     border-radius: 35px;
     margin: auto;
 }
