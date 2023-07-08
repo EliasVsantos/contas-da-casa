@@ -64,6 +64,7 @@ p{
 
 a{  
     text-decoration: none;
+    
 }
 
 .menu a{
@@ -160,6 +161,7 @@ a{
     height: auto;
 }
 
+
 .mes{
     color: brown;
     text-align: center;
@@ -168,12 +170,11 @@ a{
 }
 
 .total{
-    padding: 0.5rem;
+    padding: 35px 35px;
 }
 
 .divisao-das-contas{
-    padding: 5px;
-    padding-bottom: 0;
+    padding-bottom: 25px;
     margin-bottom: 0;
 }
 
@@ -189,8 +190,9 @@ a{
 
 .dropdown-menu a{
     display: block;
-    padding: 10px;
+    padding: 25px;
     background-color: aquamarine;
+    height: 0.3rem;
        
 }
 .dropdown:hover .dropdown-menu{
@@ -211,7 +213,11 @@ span{
 .pdf{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blue;     
+    color: white;  
+    padding: 25px;   
+    border:#ffff solid;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .pdf:hover{
@@ -226,6 +232,7 @@ span{
     border: solid white ;
     justify-content: space-between;
     justify-content: space-around;
+    margin: 85px 50px;
    
 }
 
