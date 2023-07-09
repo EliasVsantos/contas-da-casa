@@ -165,17 +165,25 @@ a{
 .mes{
     color: brown;
     text-align: center;
-    padding: 0.5rem;
-    
+    padding: 0.5rem;    
+}
+
+.fatura{
+    padding: 15px 25px;
+}
+
+.acordo{
+    padding: 15px 25px;
 }
 
 .total{
-    padding: 35px 35px;
+    padding: 25px;
 }
 
 .divisao-das-contas{
-    padding-bottom: 25px;
+    padding: 25px;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .container-1 li{
@@ -225,7 +233,6 @@ span{
 }
 
 .historico-de-pagamento{
-    text-decoration: underline;
     padding: 15px;
     color: burlywood;
     border-radius: 25px;
@@ -233,7 +240,13 @@ span{
     justify-content: space-between;
     justify-content: space-around;
     margin: 85px 50px;
+    background-color: lightsalmon;
    
+}
+
+.historico-de-pagamento a{
+    color: white;
+    text-decoration: none;
 }
 
 .historico-de-pagamento:hover{
