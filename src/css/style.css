@@ -9,19 +9,18 @@ body{
 
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to top , green, white);
-    margin: 0 auto;
-    padding: auto;
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 .menu{
     background-color: lightgreen;
-    width: 100%;
+  
     
 }
 
 .menu .boas-vindas{
     display: inline-block;
+    padding: 25px;
 }
 
 .boas-vindas{
@@ -39,7 +38,10 @@ body{
     padding: 15px;
 }
 
-
+.menu a{
+    border: solid wheat;
+    font-family: 'Milky';
+}
 
 main{
 
@@ -77,12 +79,6 @@ p{
 a{  
     text-decoration: none;
     
-}
-
-.menu a{
-    background-color: lightgreen;
-    border: solid wheat;
-    font-family: 'Milky';
 }
 
 
@@ -142,6 +138,11 @@ a{
     flex-direction: row;
     align-items: center;
     text-align: center;
+}
+
+.aviso{
+    color: brown;
+    font-weight: bold;
 }
 
 .container-1{
