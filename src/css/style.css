@@ -14,33 +14,45 @@ body{
     box-sizing: border-box;
 }
 
-header{
-    padding: auto;
-    align-items: center;
-    text-align: center;
+.menu{
+    background-color: lightgreen;
     width: 100%;
     
+}
+
+.menu .boas-vindas{
+    display: inline-block;
 }
 
 .boas-vindas{
     color: blue;
     text-transform: uppercase;
+    padding-left: 0;
 }
+
+.menu nav{
+    float: right;
+}
+
+.menu nav li{
+    display: inline-block;
+    padding: 15px;
+}
+
+
 
 main{
 
     min-width: 320px;
     max-width: 1280px;
-    margin: 0 auto;
-    padding: auto;
+    margin: 0 auto;  
 }
 
 h1{
     font-family: 'Milky';
     padding: 35px;
     font-size: 15pt;
-    color: red;
-    
+    color: red;    
 }
 
 h2{
