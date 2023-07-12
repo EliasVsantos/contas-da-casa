@@ -96,11 +96,11 @@
 </body>
 <script type="text/javascript">
     if(window.Notification&&Notification.permission!=="denied"){
-        Notification.requestPermission!permission( function)(status){
+        Notification.requestPermission!permission( function(status){
             let n = new Notification('Aviso',{
                 body: 'Quadro resumo tem uma nova informação'
             })
-        }
+        })
     }
 </script>
 </html>
