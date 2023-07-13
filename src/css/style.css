@@ -9,13 +9,14 @@ body{
 
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to top , green, white);
-     box-sizing: border-box;
+    
+     
 }
 
 .menu{
+    padding: 10px 5px;
     background-color: lightgreen;
-  
-    
+      
 }
 
 .menu .boas-vindas{
@@ -26,7 +27,6 @@ body{
 .boas-vindas{
     color: blue;
     text-transform: uppercase;
-    padding-left: 0;
 }
 
 .menu nav{
@@ -43,8 +43,21 @@ body{
     font-family: 'Milky';
 }
 
+.imagens{
+    
+    min-width: 320px;
+    max-width: 900px;
+    margin: 15px auto;
+    
+    
+}
+
+.imagens img{
+    width: 100%;
+}
+
 main{
-    padding: 30px;
+    padding: 25px;
     min-width: 320px;
     max-width: 900px;
     margin: 0 auto;  
@@ -94,7 +107,7 @@ a{
 }
  
 .container{
-    margin-right: 5 5;
+    margin: 2px auto;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -102,7 +115,7 @@ a{
     justify-content: space-between;
     justify-content: space-around;
     justify-content: space-evenly;
-    padding: auto;                
+    padding: 2.5px 3.5px;                
 }
 
 .novidades{
@@ -148,7 +161,7 @@ a{
 .container-1{
     width: auto;
     height: auto;
-    margin-right: 5 5;
+    margin: 2px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -291,52 +304,49 @@ span{
 
 
 .foto-faxada{
-    width: 95%;
+    width: 100%;
     border-radius: 35px;
-    text-align: center;
-    align-items: center;
-    margin-left: 7.5px;
-    padding: 5px;
 }
 
-.logo-sabesp img{
+.logo-sabesp {
     width: 100%;
 }
 
-.logo-enel img{
-    width: 100%;    
-    
+.logo-enel {
+    width: 100%;        
 }
 
-.logo-iptu img{
+.logo-iptu{
    width: 100%;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
 
-@media(max-device-width: 677px) {
+@media(max-width: 576px) {
+
+    .menu{
+    text-align: center;
+    }
+
+    .menu nav {
+        float: none;
+    }
+    .menu nav li{
+        display: block;
+    }
+
     .container{
         display: block;
         background-image: none;
-        
-    }
-    .container{
-        margin: 2em 2em;
-    }
-
-    .foto-faxada{
-        width: 95%;
-        align-items: center;
-        text-align: center;
-        padding-top:0.25px;
-
-    }
-
+        margin: 0 auto;
+    }  
     .container-1{
-        margin: 2em 2em;
+        display: block;
+        background-image: none;
+        margin: 0 auto;
     }
 }
 
