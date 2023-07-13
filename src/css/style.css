@@ -44,9 +44,9 @@ body{
 }
 
 main{
-
+    padding: 30px;
     min-width: 320px;
-    max-width: 1280px;
+    max-width: 900px;
     margin: 0 auto;  
 }
 
@@ -299,21 +299,17 @@ span{
     padding: 5px;
 }
 
-.logo-sabesp{
-    width: 350px;
-    height: 350px;
-    padding: auto;
+.logo-sabesp img{
+    width: 100%;
 }
 
-.logo-enel{
-    width: 50%;
-    padding-left: 60px;
+.logo-enel img{
+    width: 100%;    
     
 }
 
-.logo-iptu{
-    width: 350px;
-    height: 350px;
+.logo-iptu img{
+   width: 100%;
 }
 
 footer{
