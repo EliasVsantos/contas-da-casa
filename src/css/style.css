@@ -73,7 +73,7 @@ h1{
 }
 
 h2{
-    font-family: 'Milky';
+    font-family: 'Milky', sans-serif;
     padding: 40px;
     font-size: 14.5px;
     color: blueviolet;
@@ -94,6 +94,7 @@ p{
 a{  
     text-decoration: none;
     color: brown;
+    font-family: 'Milky', sans-serif;
     
 }
 
