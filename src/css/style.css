@@ -9,34 +9,33 @@ body{
 
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to top , green, white);
-    
-     
+    height: 100vh;    
 }
 
-.menu{
-    padding: 10px 5px;
-    background-color: lightgreen;
-    margin: 0 auto;
-      
-}
 
-.menu .boas-vindas{
-    display: inline-block;
-    padding: 25px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
 }
 
 .boas-vindas{
+    display: flex;
+    width: 100%;
     color: blue;
-    text-transform: uppercase;
+    text-transform: uppercase;   
 }
 
-.menu nav{
-    float: right;
+.menu {
+    display: flex;
+    align-items: center;
 }
 
-.menu nav li{
-    display: inline-block;
-    padding: 15px;
+
+.menu li a{
+   padding: 10px 5px;
+   
 }
 
 .menu a{
@@ -49,6 +48,7 @@ body{
     min-width: 320px;
     max-width: 900px;
     margin: 15px auto;
+    padding: 0 15px;
     
     
 }
@@ -61,7 +61,8 @@ main{
     padding: 25px;
     min-width: 320px;
     max-width: 900px;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    padding: 0 15px; 
 }
 
 h1{
@@ -130,11 +131,11 @@ a{
     justify-content: space-evenly;
     border-radius: 35px;
     border: solid white;
-    padding: auto;
+    padding: 0 15px;
 }
 
 .resumo{
-    padding: 35px;
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,31 +324,5 @@ span{
 
 footer {
     text-align: center;
-}
-
-
-@media(max-width: 576px) {
-
-    .menu{
-    text-align: center;
-    }
-
-    .menu nav {
-        float: none;
-    }
-    .menu nav li{
-        display: block;
-    }
-
-    .container{
-        display: block;
-        background-image: none;
-    
-    }  
-    .container-1{
-        display: block;
-        background-image: none;
-        
-    }
 }
 
