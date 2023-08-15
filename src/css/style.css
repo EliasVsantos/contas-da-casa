@@ -8,7 +8,7 @@
 body{
 
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to top , green, white);
+    background-image: linear-gradient(to top , #81f2b0, rgba(255, 255, 255, 0.151));
     height: 100vh;    
 }
 
@@ -119,7 +119,8 @@ a{
     justify-content: space-between;
     justify-content: space-around;
     justify-content: space-evenly;
-    padding: 0 15px;               
+    gap: 15px;
+    margin-bottom: 5px;          
 }
 
 .novidades{
@@ -132,7 +133,7 @@ a{
     justify-content: space-around;
     justify-content: space-evenly;
     border-radius: 35px;
-    border: solid white;
+    border: solid hsl(218, 23%, 16%);
     padding: 0 15px;
 }
 
@@ -140,14 +141,12 @@ a{
     padding: 0 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
-    justify-content: end;
     align-items: center;
     text-align: center;
     border-radius: 35px;
-    border: solid white;    
+    border: solid hsl(218, 23%, 16%);    
 }
 
 .texto-resumo{
@@ -173,19 +172,18 @@ a{
     text-align: center;
     align-items: start;
     justify-content: space-between;
-    justify-content: space-around;
-    padding: auto; 
+    justify-content: space-evenly;
+    gap: 15px;
         
 }
 
 .visao-do-mes{
     width: auto;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: auto;
     border-radius: 25px;
-    border: solid white;
+    border: solid hsl(217, 19%, 24%);
     padding: 25px;
     margin: auto;
     height: auto;
@@ -195,7 +193,8 @@ a{
 .mes{
     color: brown;
     text-align: center;
-    padding: 0.5rem;    
+    padding: 0.5rem;  
+    font-weight: 600;  
 }
 
 .fatura{
@@ -217,7 +216,7 @@ a{
 }
 
 .container-1 li{
-    color: #ffff;
+    color: blueviolet;
 }
 
 .dropdown-menu{
@@ -251,20 +250,21 @@ span{
 .pdf{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;  
+    color: blue;  
     padding: 25px;   
-    border:#ffff solid;
     margin: 0.5rem;
     border-radius: 0.5rem;
+    border: solid;
+    font-weight: 600;
 }
 
 .pdf:hover{
-    background-color: red;
+    background-color: hsl(217, 19%, 24%);
 }
 
 .historico-de-pagamento{
     padding: 15px;
-    color: burlywood;
+    color: rgba(222, 184, 135, 0);
     border-radius: 25px;
     border: solid white ;
     justify-content: space-between;
