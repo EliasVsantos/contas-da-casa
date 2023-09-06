@@ -14,7 +14,7 @@ Em primeiro lugar foi uma forma criativa que encontrei para desafia a minha capa
 
 Segundo ponto foi uma forma de deixar todos os moradores das três casas com a visão geral das contas, acesso as faturas e comprovantes, e também como tem um quadro na Home "Novidades", qualquer novidade pode ser colocada ali, faço a atualização mensal.<br>
 
-Essa foi um forma de homenagear o saudoso "Pezão" incrivél poeta e nosso eterno vó que faleceu em Outubro de 2019!
+Essa foi um forma de homenagear o saudoso "Pezão" incrivél poeta e nosso eterno vô que faleceu em Outubro de 2019!
 
 [Tecnologias utilizadas](#tecnologias-utilizdas.)<br>
 [Dificuldades encontradas](#dificuldades-encontradas.)<br>
